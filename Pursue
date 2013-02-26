@@ -1,0 +1,22 @@
+2. Rewrite handle_reg.php so that it uses a variable for the current year,
+   instead of hard-coding that value.
+
+3. For debugging purposes, add code to the beginning of the handle_reg.php
+   script that prints out the values of the received variables. Hint:
+   There’s a short and a long way to do this.
+
+For 2 and 3, see handle_reg#1.php
+
+4. Rewrite one of the versions of handle_reg.php so that it prints the
+   user’s favorite color selection in the user’s favorite color.
+   Hint: You’ll want to use CSS and concatenation.
+
+For 4, see handle_reg#2.php
+
+5. Update handle_reg.php so that it validates the user’s birthday by looking
+   at the three individual form elements: month, day, and year.
+
+   Create a variable that represents the user’s birthday in the format
+   XX/DD/YYYY (again, you’ll use concatenation for this).
+
+For 5, see handle_reg#3.php
