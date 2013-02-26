@@ -1,0 +1,120 @@
+Q1 Why is it important to have a user confirm their password during the
+   registration process?
+A  An HTML form commonly prompts for a user password without displaying
+   the actual password, for security reasons.
+
+   Prompting for the password twice ensures that the user types the same
+   password twice.
+
+Q2A What is the basic structure of an if conditional in PHP?
+A   The basic structure of an if conditional is:
+
+    if (conditional) {
+        // If conditional is TRUE, execute:
+        one (or more) commands, each terminated with a semi-colon
+    }
+
+Q2B An if-else conditional?
+A   The basic structure of an if-else conditional is:
+
+    if (conditional) {
+        // If conditional is TRUE, execute:
+        one (or more) commands, each terminated with a semi-colon
+    } else {
+        // If conditional is FALSE, execute:
+        one (or more) commands, each terminated with a semi-colon
+    }
+
+Q2C An if-elseif?
+A   The basic structure of an if-elseif is:
+
+    if (conditional1) {
+        // If conditional1 is TRUE, execute:
+        one (or more) commands, each terminated with a semi-colon
+    } else if (conditional2) {
+        // Otherwise, if conditional2 is TRUE, execute:
+        one (or more) commands, each terminated with a semi-colon
+    }
+
+Q2D An if-elseif-else?
+A   The basic structure of an if-elseif-else is:
+
+    if (conditional1) {
+        // If conditional1 is TRUE, execute:
+        one (or more) commands, each terminated with a semi-colon
+    } else if (conditional2) {
+        // Otherwise, if conditional2 is TRUE, execute:
+        one (or more) commands, each terminated with a semi-colon
+    } else {
+        // Otherwise, execute:
+        one (or more) commands, each terminated with a semi-colon
+    }
+
+Q3 What are the differences between the empty() and isset() functions?
+A  The empty() function returns TRUE if a variable is not set, the value
+   of the variable is 0 or an empty or NULL string. Otherwise, it returns
+   FALSE.
+
+   The isset function returns TRUE if a variable is set and not NULL.
+   Otherwise, it returns FALSE.
+
+Q4 What is the assignment operator? What is the equality operator?
+A  A single equals (=) is the assignment operator. A double equals (==)
+   is the equality operator.
+
+Q5 Without knowing anything about $var, will the following conditional be TRUE
+   or FALSE? Why?
+
+   if ($var = 'donut') {
+
+A  The value will be TRUE since the conditional in the if statement is
+   using the assigment operator.
+
+Q6 What do these operators mean?
+
+   && 
+   ||
+   !
+
+A  All of those operators are logical operators:
+
+   && => Logical AND
+   || => Logical OR
+   !  => Logical NOT
+
+Q7 What is the syntax of a switch conditional? When is a switch
+   most commonly used?
+A  The syntax of a switch conditional is:
+
+   switch ($variable)
+   {
+       case value1:
+          Statements(s)1;
+          break;
+
+       case value2:
+          Statement(s2);
+          break;
+
+       default:
+          Statement(s) if there no matches;
+          break;
+   }
+
+   A switch conditional is often used in place of an "if" conditional with
+   multiple possible values.
+
+Q8 What is the syntax of a for loop?
+A  The syntax of a for loop is:
+
+   for (<temp variable>=<starting value>; <conditional>; <operation>)
+   {
+       One (or more) commands, each terminated with a semi-colon;
+   }
+
+   For example, the following loop counts from 100 to 1:
+
+   for ($i = 100; $i >= 1; $i--)
+   {
+       print 'The value is ' . $i;
+   }
